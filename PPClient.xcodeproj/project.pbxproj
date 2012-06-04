@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E06E41F2157C7ECE00D3D7B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06E41F1157C7ECE00D3D7B5 /* UIKit.framework */; };
+		E06E41F4157C7ECE00D3D7B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06E41F3157C7ECE00D3D7B5 /* Foundation.framework */; };
+		E06E41F6157C7ECE00D3D7B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06E41F5157C7ECE00D3D7B5 /* CoreGraphics.framework */; };
+		E06E41F8157C7ECE00D3D7B5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06E41F7157C7ECE00D3D7B5 /* CoreData.framework */; };
+		E06E41FE157C7ECE00D3D7B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E06E41FC157C7ECE00D3D7B5 /* InfoPlist.strings */; };
+		E06E4200157C7ECE00D3D7B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E06E41FF157C7ECE00D3D7B5 /* main.m */; };
+		E06E4204157C7ECE00D3D7B5 /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E06E4203157C7ECE00D3D7B5 /* XLAppDelegate.m */; };
+		E06E4207157C7ECE00D3D7B5 /* PPClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E06E4205157C7ECE00D3D7B5 /* PPClient.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E06E41ED157C7ECE00D3D7B5 /* PPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06E41F1157C7ECE00D3D7B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E06E41F3157C7ECE00D3D7B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E06E41F5157C7ECE00D3D7B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E06E41F7157C7ECE00D3D7B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E06E41FB157C7ECE00D3D7B5 /* PPClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPClient-Info.plist"; sourceTree = "<group>"; };
+		E06E41FD157C7ECE00D3D7B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E06E41FF157C7ECE00D3D7B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E06E4201157C7ECE00D3D7B5 /* PPClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPClient-Prefix.pch"; sourceTree = "<group>"; };
+		E06E4202157C7ECE00D3D7B5 /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
+		E06E4203157C7ECE00D3D7B5 /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
+		E06E4206157C7ECE00D3D7B5 /* PPClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PPClient.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06E41EA157C7ECE00D3D7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06E41F2157C7ECE00D3D7B5 /* UIKit.framework in Frameworks */,
+				E06E41F4157C7ECE00D3D7B5 /* Foundation.framework in Frameworks */,
+				E06E41F6157C7ECE00D3D7B5 /* CoreGraphics.framework in Frameworks */,
+				E06E41F8157C7ECE00D3D7B5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E06E41E2157C7ECE00D3D7B5 = {
+			isa = PBXGroup;
+			children = (
+				E06E41F9157C7ECE00D3D7B5 /* PPClient */,
+				E06E41F0157C7ECE00D3D7B5 /* Frameworks */,
+				E06E41EE157C7ECE00D3D7B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E06E41EE157C7ECE00D3D7B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06E41ED157C7ECE00D3D7B5 /* PPClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06E41F0157C7ECE00D3D7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E06E41F1157C7ECE00D3D7B5 /* UIKit.framework */,
+				E06E41F3157C7ECE00D3D7B5 /* Foundation.framework */,
+				E06E41F5157C7ECE00D3D7B5 /* CoreGraphics.framework */,
+				E06E41F7157C7ECE00D3D7B5 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06E41F9157C7ECE00D3D7B5 /* PPClient */ = {
+			isa = PBXGroup;
+			children = (
+				E06E4202157C7ECE00D3D7B5 /* XLAppDelegate.h */,
+				E06E4203157C7ECE00D3D7B5 /* XLAppDelegate.m */,
+				E06E4205157C7ECE00D3D7B5 /* PPClient.xcdatamodeld */,
+				E06E41FA157C7ECE00D3D7B5 /* Supporting Files */,
+			);
+			path = PPClient;
+			sourceTree = "<group>";
+		};
+		E06E41FA157C7ECE00D3D7B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E06E41FB157C7ECE00D3D7B5 /* PPClient-Info.plist */,
+				E06E41FC157C7ECE00D3D7B5 /* InfoPlist.strings */,
+				E06E41FF157C7ECE00D3D7B5 /* main.m */,
+				E06E4201157C7ECE00D3D7B5 /* PPClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06E41EC157C7ECE00D3D7B5 /* PPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06E420A157C7ECE00D3D7B5 /* Build configuration list for PBXNativeTarget "PPClient" */;
+			buildPhases = (
+				E06E41E9157C7ECE00D3D7B5 /* Sources */,
+				E06E41EA157C7ECE00D3D7B5 /* Frameworks */,
+				E06E41EB157C7ECE00D3D7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPClient;
+			productName = PPClient;
+			productReference = E06E41ED157C7ECE00D3D7B5 /* PPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06E41E4157C7ECE00D3D7B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = pretang;
+			};
+			buildConfigurationList = E06E41E7157C7ECE00D3D7B5 /* Build configuration list for PBXProject "PPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E06E41E2157C7ECE00D3D7B5;
+			productRefGroup = E06E41EE157C7ECE00D3D7B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06E41EC157C7ECE00D3D7B5 /* PPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06E41EB157C7ECE00D3D7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06E41FE157C7ECE00D3D7B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06E41E9157C7ECE00D3D7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06E4200157C7ECE00D3D7B5 /* main.m in Sources */,
+				E06E4204157C7ECE00D3D7B5 /* XLAppDelegate.m in Sources */,
+				E06E4207157C7ECE00D3D7B5 /* PPClient.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E06E41FC157C7ECE00D3D7B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06E41FD157C7ECE00D3D7B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E06E4208157C7ECE00D3D7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E06E4209157C7ECE00D3D7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06E420B157C7ECE00D3D7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPClient/PPClient-Prefix.pch";
+				INFOPLIST_FILE = "PPClient/PPClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E06E420C157C7ECE00D3D7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPClient/PPClient-Prefix.pch";
+				INFOPLIST_FILE = "PPClient/PPClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06E41E7157C7ECE00D3D7B5 /* Build configuration list for PBXProject "PPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06E4208157C7ECE00D3D7B5 /* Debug */,
+				E06E4209157C7ECE00D3D7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06E420A157C7ECE00D3D7B5 /* Build configuration list for PBXNativeTarget "PPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06E420B157C7ECE00D3D7B5 /* Debug */,
+				E06E420C157C7ECE00D3D7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E06E4205157C7ECE00D3D7B5 /* PPClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E06E4206157C7ECE00D3D7B5 /* PPClient.xcdatamodel */,
+			);
+			currentVersion = E06E4206157C7ECE00D3D7B5 /* PPClient.xcdatamodel */;
+			path = PPClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E06E41E4157C7ECE00D3D7B5 /* Project object */;
+}
