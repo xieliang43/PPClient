@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class XLMainViewController;
+
 @interface XLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

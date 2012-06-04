@@ -15,6 +15,8 @@
 		E06E4200157C7ECE00D3D7B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E06E41FF157C7ECE00D3D7B5 /* main.m */; };
 		E06E4204157C7ECE00D3D7B5 /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E06E4203157C7ECE00D3D7B5 /* XLAppDelegate.m */; };
 		E06E4207157C7ECE00D3D7B5 /* PPClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E06E4205157C7ECE00D3D7B5 /* PPClient.xcdatamodeld */; };
+		E06E4214157C807D00D3D7B5 /* XLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06E4212157C807D00D3D7B5 /* XLMainViewController.m */; };
+		E06E4215157C807D00D3D7B5 /* XLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06E4213157C807D00D3D7B5 /* XLMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		E06E4202157C7ECE00D3D7B5 /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
 		E06E4203157C7ECE00D3D7B5 /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
 		E06E4206157C7ECE00D3D7B5 /* PPClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PPClient.xcdatamodel; sourceTree = "<group>"; };
+		E06E4211157C807D00D3D7B5 /* XLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMainViewController.h; sourceTree = "<group>"; };
+		E06E4212157C807D00D3D7B5 /* XLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLMainViewController.m; sourceTree = "<group>"; };
+		E06E4213157C807D00D3D7B5 /* XLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +85,9 @@
 			children = (
 				E06E4202157C7ECE00D3D7B5 /* XLAppDelegate.h */,
 				E06E4203157C7ECE00D3D7B5 /* XLAppDelegate.m */,
-				E06E4205157C7ECE00D3D7B5 /* PPClient.xcdatamodeld */,
+				E06E4211157C807D00D3D7B5 /* XLMainViewController.h */,
+				E06E4212157C807D00D3D7B5 /* XLMainViewController.m */,
+				E06E4213157C807D00D3D7B5 /* XLMainViewController.xib */,
 				E06E41FA157C7ECE00D3D7B5 /* Supporting Files */,
 			);
 			path = PPClient;
@@ -89,6 +96,7 @@
 		E06E41FA157C7ECE00D3D7B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E06E4205157C7ECE00D3D7B5 /* PPClient.xcdatamodeld */,
 				E06E41FB157C7ECE00D3D7B5 /* PPClient-Info.plist */,
 				E06E41FC157C7ECE00D3D7B5 /* InfoPlist.strings */,
 				E06E41FF157C7ECE00D3D7B5 /* main.m */,
@@ -150,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06E41FE157C7ECE00D3D7B5 /* InfoPlist.strings in Resources */,
+				E06E4215157C807D00D3D7B5 /* XLMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 				E06E4200157C7ECE00D3D7B5 /* main.m in Sources */,
 				E06E4204157C7ECE00D3D7B5 /* XLAppDelegate.m in Sources */,
 				E06E4207157C7ECE00D3D7B5 /* PPClient.xcdatamodeld in Sources */,
+				E06E4214157C807D00D3D7B5 /* XLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +274,7 @@
 				E06E420C157C7ECE00D3D7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

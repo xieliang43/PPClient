@@ -8,6 +8,8 @@
 
 #import "XLAppDelegate.h"
 
+#import "XLMainViewController.h"
+
 @implementation XLAppDelegate
 
 @synthesize window = _window;
@@ -27,8 +29,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+
+    XLMainViewController *mainController = [[XLMainViewController alloc] initWithNibName:nil bundle:nil];
+    
+    self.window.rootViewController = mainController;
+    [mainController release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
